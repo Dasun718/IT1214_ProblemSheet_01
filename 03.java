@@ -65,11 +65,11 @@ class Bank{
     public void printAccount(){
         for(int i=0;i<numberofAccount;i++){
             BankAccounnt acc = accounts.get(i);
-            System.out.println("/////////////////////////");
+            System.out.println("--------------------------");
             System.out.println("Account No: " + acc.getAccountNumber());
             System.out.println("Account Holders Name: " + acc.getAccountHolder());
             System.out.println("Account Balance: " + acc.getBalance());
-            System.out.println("/////////////////////////");
+            System.out.println("--------------------------");
         }
     }
 }
